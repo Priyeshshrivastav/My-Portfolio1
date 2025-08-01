@@ -15,6 +15,8 @@ function App() {
       <Route path="*" element={<Notfound/>}/>
      </Rotes>
      </BrowserRouter>
+
+     {/* "private": true, */}
     </>
   )
 }
